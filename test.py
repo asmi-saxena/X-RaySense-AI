@@ -4,7 +4,7 @@ import streamlit as st
 from fpdf import FPDF
 
 # Configure the API key
-genai.configure(api_key='AIzaSyBk5R8rRbz9qgZhquGxaK_BtAkyTCY_Zi0')
+genai.configure(api_key=your_api_key)
 
 def analyze_xray(image, patient_age, patient_gender, patient_history):
     """
